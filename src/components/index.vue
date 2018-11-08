@@ -4,7 +4,6 @@
     <VSidebar/>
   </el-aside>
   <el-main>
-    
     <router-view />
     <router-view name="editor"/>
   </el-main>

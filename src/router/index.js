@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-// 商家基本信息 查看 和 编辑 
+// 商家基本信息 查看 和 编辑
 const editorStoreInfo = resolve => require(['@/components/BusinessShop/editorStoreInfo'], resolve) // 编辑信息
 const viewStoreInfo = resolve => require(['@/components/BusinessShop/viewStoreInfo'], resolve) // 查看信息
 
@@ -9,7 +9,7 @@ const viewStoreInfo = resolve => require(['@/components/BusinessShop/viewStoreIn
 const orderList = resolve => require(['@/components/OrderMange/orderList'], resolve) // 列表
 const orderDetails = resolve => require(['@/components/OrderMange/orderDetails'], resolve) // 详情
 
-// 商品维护 --- 商家 
+// 商品维护 --- 商家
 const atSalesGoods = resolve => require(['@/components/goodsMaintain/atSalesGoods'], resolve) // 在售商品
 const goodsPreview = resolve => require(['@/components/goodsMaintain/goodsPreview'], resolve) // 商品预览
 const waitSalesGoods = resolve => require(['@/components/goodsMaintain/waitSalesGoods'], resolve) // 代售商品
