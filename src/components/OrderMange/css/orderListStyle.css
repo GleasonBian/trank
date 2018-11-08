@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.OrderList {
+    border: 1px solid #999999;
+    border-radius: 14px;
+    padding: 10px;
+}
+
+.order {
+    width: 100%;
+    border-bottom: 1px solid #999999;
+    display: flex;
+    align-items: center;
+    height: 4rem;
+}
+
+.order div {
+    width: 65px;
+    background: #999999;
+    padding: 4px 10px;
+    color: #ffffff;
+}
+
+.searchStyle {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.searchStyle .search_code {
+    /* border: 1px solid red; */
+    width: 33.3%;
+    display: flex;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+.searchStyle .search_code span {
+    width: 20%
+}
+
+.searchStyle .search_code .el-input {
+    width: 50%;
+}
+
+.el-table td, .el-table th.is-leaf {
+    text-align: center;
+}
+
+.el-table_1_column_3 .cell {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.el-table_1_column_3 .cell img {
+    margin-left: 2px;
+    width: 40px;
+    height: 40px;
+}
+
+.el-table_2_column_12 .cell {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.el-table_2_column_12 .cell img {
+    margin-left: 2px;
+    width: 40px;
+    height: 40px;
+}

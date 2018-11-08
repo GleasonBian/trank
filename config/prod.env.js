@@ -1,0 +1,9 @@
+// 'use strict'
+// module.exports = {
+//   NODE_ENV: '"production"'
+// }
+// config/prod.env.js
+module.exports = {
+  NODE_ENV: '"production"',//生产环境
+  API_HOST:'"http://localhost:8080"'
+}
